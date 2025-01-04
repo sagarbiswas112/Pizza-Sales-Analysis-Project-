@@ -58,9 +58,14 @@ To analyze pizza sales data to understand:
 ```SQL
 Table: pizza_sales
 Columns:
+- pizza_id
 - order_id
 - pizza_name
 - pizza_category
 - pizza_size
 - quantity
+- total_price
+- order_date
+- order_day
+- order_time
 - total_price
